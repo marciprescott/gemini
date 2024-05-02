@@ -18,6 +18,3 @@ def generate_response(prompt, temperature=0.5):
     )
     response = model.generate_content(prompt, generation_config=generation_config)
     return response.text
-
-
-genai.configure(api_key=os.environ.get("GOOGLE_API_KEY"))
