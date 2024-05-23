@@ -2,8 +2,8 @@ Installation
 
 Prerequisites:
 
-Ensure you have Python 3.x installed on your system. You can check by running python --version or python3 --version in your terminal.
-Additional dependencies might be required. These will be listed in a file called requirements.txt (if present). If so, install them using pip install -r requirements.txt.
+Ensure you have Python 3.11.5 installed on your system. You can check by running python --version or python3 --version in your terminal.
+Additional dependencies might be required. These will be listed in a file called requirements.txt. Install them using pip install -r requirements.txt.
 Clone the Repository:
 
 Open your terminal and navigate to the directory where you want to clone the project.
@@ -29,7 +29,7 @@ Create an API key in your GCP project for authentication.
 Set Environment Variable:
 
 There are two main approaches to set the API key securely:
-Environment variables: This is the recommended approach. Store the API key in an environment variable named GOOGLE_API_KEY. You can set environment variables differently depending on your operating system:
+Environment variables: This is the  RECOMMENDED APPROACH. Store the API key in an environment variable named GOOGLE_API_KEY. You can set environment variables differently depending on your operating system:
 
 Linux/macOS:
 Bash
@@ -51,7 +51,7 @@ Open your terminal and navigate to the directory where you cloned the project us
 Bash
 cd <your-repo-name>
 
-content_copy
+
 Replace <your-repo-name> with the actual name of the directory containing the project files.
 
 Run the Script:
@@ -63,4 +63,7 @@ Run the script using the Python command:
 Bash
 python gemini.py
 
-The script should take user input (if applicable) and generate content using Bard's API.
+The script will take user input and generate content using Bard's API.
+There is  also a skincare quiz under survey.py if you are curious as to your skin type and concerns, feel free to run survey.py!
+I am adding integration with claude and will eventually have one with GhatGPT as well.  
+
