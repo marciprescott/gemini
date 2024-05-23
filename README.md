@@ -3,7 +3,9 @@ Installation
 Prerequisites:
 
 Ensure you have Python 3.11.5 installed on your system. You can check by running python --version or python3 --version in your terminal.
-Additional dependencies might be required. These will be listed in a file called requirements.txt. Install them using pip install -r requirements.txt.
+Additional dependencies might be required. These will be listed in a file called requirements.txt. Install them using 
+pip install -r requirements.txt.
+
 Clone the Repository:
 
 Open your terminal and navigate to the directory where you want to clone the project.
@@ -11,10 +13,8 @@ Open your terminal and navigate to the directory where you want to clone the pro
 Use the git clone command followed by the URL of your GitHub repository:
 
 Bash
-git clone https://github.com/<your-username>/<your-repo-name>.git
-Use code with caution.
-content_copy
-Replace <your-username> and <your-repo-name> with your actual GitHub username and repository name.
+git clone https://github.com/marciprescott/gemini.git
+
 
 Configuration
 
